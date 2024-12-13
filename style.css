@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    box-sizing: border-box  ;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+.header-left img{
+    width: 50px;
+}
+.header-middle{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1rem;
+}
+.header-middle a{
+    text-decoration: none;
+    color: black;
+}
+.header-right{
+    display: flex;
+    align-items:center;
+    gap: 2rem;
+}
+.header-right img{
+    width: 20px;
+    height: 20px;
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.menu1,.menu2,.menu3{
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    /* border:1px solid black; */
+}
+.menu img{
+    width: 100%;
+    height: 55%;
+    object-fit: cover;
+}
+.menu a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+.welcome{
+    display: flex;
+    width: 100%;
+    background-color: linen;
+    /* justify-content: space-around; */
+}
+.welcome-left{
+    width:40%;
+    /* height:500px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    /* border: 1px solid black; */
+}   
+.welcome-left img{
+    width: 90%;
+}
+.welcome-right{
+    display: flex;
+    flex-direction: column;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+    align-items: center; 
+    justify-content: center;
+    width: 60%;
+    padding: 5rem;
+    gap: 2rem;
+    font-size: 1.2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+.welcome h1{
+    width: 100%;
+    background-color:lightgreen ;
+}
+.welcome-right button{
+    padding: 0.5rem 5rem;
+    background-color:crimson;
+    border-radius: 1rem;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.recipes-category{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.category{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.category1,.category2,.category3{
+    width: 350px;
+    height: 500px;
+    position: relative;
+    /* border: 1px solid black; */
+
+}
+.category img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.category1 p,.category2 p,.category3 p{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    /* width: 100%; */
+    text-align: center;
+    background-color:black;
+    color:white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.category1:hover>img,.category2:hover>img,.category3:hover>img,.category1:hover>p,.category2:hover>p,.category3:hover>p{
+    opacity:80%;
+    transition: all;
+}
+.recipes-category > h1{
+    /* margin-top: 1rem; */
+    background-color:lightskyblue;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.most-popular{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.most-popular>h1{
+    text-align: center;
+    background-color: lightskyblue;
+    padding: 1rem;
+}
+.popular-dishes,.popular-dishes2    {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+.dish1,.dish2,.dish3,.dish4,.dish5,.dish6{
+    width: 350px;
+    height: 500px;  
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /* padding: 1rem; */
+    /* border: 1px solid black; */
+}
+.popular-dishes img,.popular-dishes2 img{
+    width: 100%;
+    height:55%;
+    object-fit: cover;
+}
+.popular-dishes a,.popular-dishes2 a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+.contact{
+    display: flex;
+    background-color:linen ;
+}
+.contact-left{
+    width: 40%;
+    display: flex;
+    justify-content:end;
+    padding: 3rem;
+}
+.contact-left img{
+    width: 60%;
+}
+.contact-right{
+    width: 60%;
+    font-size: 1.3rem;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content:left; */
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 4rem 10rem 4rem 1rem;
+    /* border: 1px solid black; */
+}
+.contact-right button{
+    /* display: flex;
+    align-items: center;
+    width: 6rem; */
+    background-color:crimson;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+.contact-right h1{
+    background-color:lightgreen;
+}
+.bottom{
+    display: flex;
+    justify-content:space-around;
+    font-size: 1.2rem;
+    padding: 4rem;
+}
+.bottom-left{
+    display: flex;
+    gap: 1.5rem;    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bottom-left a{
+    text-decoration: none;
+    color: black;
+}
+.bottom-right{
+    display: flex;
+    /* align-items:center; */
+    gap: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.bottom-right img{
+    width: 20px;
+    height: 20px;
+}
+.footer{
+    background-color: aqua;
+    margin: 0;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+.footer p{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.5rem;
+}
+
+
